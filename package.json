@@ -1,0 +1,29 @@
+{
+  "name": "obuscript",
+  "version": "1.0.0",
+  "description": "Script that runs javascript obfuscator on entire project",
+  "main": "index.js",
+  "scripts": {
+    "compile": "ts-node src/cli.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zMrKrabz/obuscript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zMrKrabz/obuscript/issues"
+  },
+  "homepage": "https://github.com/zMrKrabz/obuscript#readme",
+  "dependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "fs-extra": "^10.1.0",
+    "javascript-obfuscator": "^4.0.0",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.2",
+    "ts-node": "^10.9.1"
+  }
+}
